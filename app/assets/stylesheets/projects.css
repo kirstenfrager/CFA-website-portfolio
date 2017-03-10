@@ -1,0 +1,74 @@
+
+
+#projects .row {
+  /*padding-top: 20px;*/
+  margin-top: 25px;
+}
+
+.p-box {
+  max-width: 30%;
+  height: 40vh;
+  box-shadow: 0 0 10px 10px #9E9E9E;
+  margin: 10px;
+  border-radius: 20px;
+  display: flex;
+  display: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-name {
+  color: white;
+  font-family: "Rock Salt", cursive;
+  font-size: 20px;
+  margin: auto;
+}
+
+.project-name:hover {
+  -webkit-stroke-width: 5.3px;
+  -webkit-stroke-color: #FFFFFF;
+  -webkit-fill-color: #FFFFFF;
+  text-shadow: 1px 0px 20px #FF4081;
+  text-decoration: none;
+}
+
+.p-box a {
+  color: #00BCD4 !important;
+  text-decoration: none !important;
+  /*cursor: url("github-purple.png"), auto;*/
+}
+
+.quizgif {
+  background-image: url("quiz.gif");
+  background-size: cover;
+}
+
+.tempgif {
+  background-image: url("temp.gif");
+  background-size: cover;
+}
+
+.calcgif {
+  background-image: url("calculator.gif");
+  background-size: cover;
+}
+
+.github {
+  background-image: url("github.png");
+  background-size: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.zengif {
+  background-image: url("zengarden.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.donaldtrump {
+  background-image: url("donaldtrump.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}

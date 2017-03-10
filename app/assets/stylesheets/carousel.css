@@ -1,0 +1,14 @@
+.cara {
+  padding-top: 120px;
+}
+
+.pic-box {
+  border: 2px solid green;
+  height: 500px;
+  width: 500px;
+  overflow: hidden;
+  /*display: flex;
+  display: column;
+  align-items: center;
+  justify-content: center;*/
+}

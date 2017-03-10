@@ -1,0 +1,51 @@
+.about-screen {
+  height: 500px;
+}
+
+
+
+
+
+
+
+
+/*.card-title {
+  height: 300px;
+  width: 900px;
+  border: 2px solid green;
+  margin-top: -80px;
+  left: 250px;
+  -ms-transform: rotate(15deg);
+  -webkit-transform: rotate(15deg);
+  transform: rotate(15deg);
+}*/
+
+.picture {
+  border: 2px solid blue;
+  height: 400px;
+  width: 400px;
+  background-image: url("me3.png");
+  background-size: cover;
+  /*border-radius: 50%;*/
+  box-shadow: 0 0 120px 80px #e7e5e2 inset;
+}
+
+.about-row {
+  padding-top: 90px;
+}
+
+.about-text {
+  /*border: 3px solid orange;*/
+  text-align: center;
+  /*padding-left: 50px;*/
+}
+
+.about-paragraph::first-letter {
+  font-family: "Gloss and Bloom", cursive;
+  font-size: 105%;
+}
+
+#about p {
+  font-family: 'Alegreya', serif;
+  font-size: 22px;
+}

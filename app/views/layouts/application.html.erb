@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application'%>
+
+    <!-- <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %> -->
+  </head>
+
+  <body>
+
+
+
+    <!--HamBurger Icon-->
+    <div class="bars" id="nav-action">
+      <span class="bar"> </span>
+    </div>
+
+    <!--Navbar Links-->
+    <nav id="nav">
+      <ul>
+        <li class="shape-circle circle-one">
+          <a data-scroll href="#contact">Contact</a></li>
+        <li class="shape-circle circle-two">
+          <a data-scroll href="#projects">Projects</a></li>
+        <li class="shape-circle circle-three">
+          <a data-scroll href="#skills-experience">Skills</a>
+        </li>
+        <li class="shape-circle circle-four">
+          <a data-scroll href="#about">About</a></li>
+        <li class="shape-circle circle-five">
+          <a class="homeclick" data-scroll  href="#homepage">Home</a>
+        </li>
+      </ul>
+    </nav>
+
+    <%= yield %>
+
+    <script type="text/javascript">
+    console.log('js here');
+    // navigation bar:
+
+    // Setting up the Variables
+    var bars = document.getElementById("nav-action");
+    console.log(bars);
+    var nav = document.getElementById("nav");
+    console.log(nav);
+
+
+    //setting up the listener
+    bars.addEventListener("click", barClicked, false);
+
+
+    //setting up the clicked Effect
+    function barClicked() {
+      console.log('clicked funca');
+      bars.classList.toggle('active');
+      nav.classList.toggle('visible');
+    }
+    </script>
+
+
+
+
+<!-- smooth scrool javascript -->
+    <script>
+      smoothScroll.init();
+    </script>
+
+  </body>
+
+</html>
