@@ -84,15 +84,14 @@ body {
   // position: absolute;
   top: 0;
   left: 0;
-  min-height: 100%;
-  min-width: 100%;
+  // min-height: 100%;
+  // min-width: 100%;
 }
 
 .header-content {
   position: absolute;
   width: 100%;
   min-height: 100%;
-  z-index: 1000;
 }
 
 .header-content h1 {
@@ -166,7 +165,7 @@ h1 {
 
 
 .dronepic-one {
-  // background-image: url("austria-4.png");
+  background-image: url("http://res.cloudinary.com/df0hftplx/image/upload/v1489122053/austria-4_qcfppp.jpg");
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -176,7 +175,7 @@ h1 {
 }
 
 .dronepic-two {
-  background-image: url("kayak.png");
+  background-image: url("http://res.cloudinary.com/df0hftplx/image/upload/v1489122040/kayak_yesrd6.jpg");
   height: 100vh;
   background-position: center;
   background-size: cover;
@@ -186,7 +185,7 @@ h1 {
 }
 
 .dronepic-three {
-  background-image: url("shiprock.png");
+  background-image: url("https://res.cloudinary.com/df0hftplx/image/upload/v1489122025/shiprock_zc2zax.jpg");
   height: 100vh;
   background-position: center;
   background-size: cover;

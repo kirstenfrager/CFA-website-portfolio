@@ -39,35 +39,35 @@
 }
 
 .quizgif {
-  background-image: url("quiz.gif");
+  background-image: url("http://res.cloudinary.com/df0hftplx/image/upload/v1489122962/quiz_ks9vze.gif");
   background-size: cover;
 }
 
 .tempgif {
-  background-image: url("temp.gif");
+  background-image: url("http://res.cloudinary.com/df0hftplx/image/upload/v1489122967/temp_kgx5ce.gif");
   background-size: cover;
 }
 
 .calcgif {
-  background-image: url("calculator.gif");
+  background-image: url("http://res.cloudinary.com/df0hftplx/image/upload/v1489123055/calculator_fqv8un.gif");
   background-size: cover;
 }
 
 .github {
-  background-image: url("github.png");
+  background-image: url("http://res.cloudinary.com/df0hftplx/image/upload/v1489122947/github_x3trab.png");
   background-size: 350px;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .zengif {
-  background-image: url("zengarden.png");
+  background-image: url("http://res.cloudinary.com/df0hftplx/image/upload/v1489122972/zengarden_irncei.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .donaldtrump {
-  background-image: url("donaldtrump.png");
+  background-image: url("http://res.cloudinary.com/df0hftplx/image/upload/v1489122938/donaldtrump_xdddga.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
