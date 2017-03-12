@@ -4,7 +4,7 @@
 
 .bars {
   position: fixed;
-  width: 27px;
+  width: 30px;
   height: 27px;
   top: 30px;
   right: 30px;
@@ -16,18 +16,13 @@
 .bar {
   width: 100%;
   height: 5px;
-  background-color: pink;
+  background-color: #FF4081;
   position: absolute;
 }
 
 .bar:hover {
-  background: #FF4081;
+  background: pink;
 }
-
-// .bars:hover {
-//   background: #FF4081;
-//   opacity: 0.5;
-// }
 
 span::before,
 span::after {

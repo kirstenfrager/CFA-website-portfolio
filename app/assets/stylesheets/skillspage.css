@@ -165,6 +165,25 @@ li a:hover {
   text-decoration: none;
 }
 
+.webdesign:hover::after {
+  content: ' 35%';
+}
+
+.ruby:hover::after {
+  content: ' 35%';
+}
+
+.html:hover::after {
+  content: ' 20%';
+}
+
+.css:hover::after {
+  content: ' 20%';
+}
+
+.rails:hover::after {
+  content: ' 10%';
+}
 
 /* black Containers for skill levels */
 
