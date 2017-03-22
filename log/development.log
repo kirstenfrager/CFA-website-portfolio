@@ -23752,3 +23752,17 @@ Completed 200 OK in 662ms (Views: 651.4ms | ActiveRecord: 0.0ms)
 Completed 200 OK in 697ms (Views: 678.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2017-03-22 11:55:27 +1100
+Started GET "/" for ::1 at 2017-03-22 11:55:27 +1100
+Processing by PageController#website as HTML
+Processing by PageController#website as HTML
+  Rendering page/website.html.erb within layouts/application
+  Rendering page/website.html.erb within layouts/application
+  Rendered page/website.html.erb within layouts/application (2.2ms)
+  Rendered page/website.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 3597ms (Views: 3579.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3605ms (Views: 3590.4ms | ActiveRecord: 0.0ms)
+
+
