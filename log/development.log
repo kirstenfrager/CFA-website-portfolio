@@ -23710,3 +23710,45 @@ Processing by PageController#website as HTML
 Completed 200 OK in 630ms (Views: 617.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for ::1 at 2017-03-13 17:17:03 +1100
+Processing by PageController#website as HTML
+  Rendering page/website.html.erb within layouts/application
+  Rendered page/website.html.erb within layouts/application (2.3ms)
+Started GET "/" for ::1 at 2017-03-13 17:17:04 +1100
+Processing by PageController#website as HTML
+  Rendering page/website.html.erb within layouts/application
+  Rendered page/website.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 789ms (Views: 767.5ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 604ms (Views: 601.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-03-14 09:40:36 +1100
+Processing by PageController#website as HTML
+  Rendering page/website.html.erb within layouts/application
+  Rendered page/website.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 2223ms (Views: 2209.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-03-14 09:42:43 +1100
+Processing by PageController#website as HTML
+  Rendering page/website.html.erb within layouts/application
+  Rendered page/website.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1509ms (Views: 1507.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-03-22 11:44:09 +1100
+Started GET "/" for ::1 at 2017-03-22 11:44:10 +1100
+Processing by PageController#website as HTML
+Processing by PageController#website as HTML
+  Rendering page/website.html.erb within layouts/application
+  Rendering page/website.html.erb within layouts/application
+  Rendered page/website.html.erb within layouts/application (5.9ms)
+  Rendered page/website.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 662ms (Views: 651.4ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 697ms (Views: 678.5ms | ActiveRecord: 0.0ms)
+
+
